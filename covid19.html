@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>COVID-19</title>
+</head>
+
+<body>
+    <div class="fixed-top">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <h5 class="text-white h4">Ace Corporate</h5>
+                <span class="text-muted">
+                    <h4>EMAIL:</h4>
+                    <h6 class="text-primary">
+                        info@acecorporateconsultants.com</h6>
+                </span>
+                <span class="text-muted">
+                    <h4> 24/7
+                        PHONE:</h4>
+                    <h6 class="text-primary">+92
+                        51-5524833</h6>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Ace Corporate</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Ace.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/About.html">About Us</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/Update.html">Updates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/construction.html">Construction & Renovation</a>
+                        <a class="dropdown-item" href="/Marketing.html">Marketing</a>
+                        <a class="dropdown-item" href="/Infotech.html">Information Servicess</a>
+                        <a class="dropdown-item" href="/account.html">Accounting & Finance Services</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-dark" href="/covid19.html">COVID-19</a>
+                    </div>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button type="button" class="btn btn-success" data-toggle="modal"
+                        data-target="#loginModal">Login</button>
+                    <button type="button" class="btn btn-success" data-toggle="modal"
+                        data-target="#signupModal">SignUp</button>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="close" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                </div>
+                            </div>
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="cexampleInputPassword1">Confrim Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Cor4.jpg" height="600" width="1400" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome To</h3>
+                    <p>
+                    <h1 class="text-primary">ACE CORPORATE CONSULTANTS (PVT.) LIMITED </h1>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Cor3.jpg" height="600" width="1400" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Services</h3>
+                    <p>
+                    <h4>Procurement, Information Technology, Finance Management.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Cor2.jpg" height="600" width="1400" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--Body Of COVID_19-->
+    <div class="container">
+        <h2 class="text-muted text-center my-4">COVID-19</h2>
+        <p class="text-muted">
+            The coronavirus, or COVID-19, is inciting panic for several reasons. It is a new virus, meaning no one has
+            immunity, and there is no vaccine. Its novelty means that scientists are not sure yet how it behaves they
+            have little history to go on.
+        </p>
+        <h5 class="text-dark">How is the virus transmitted?</h5>
+        <p class="text-muted">
+            It is likely that the Coronavirus Disease (COVID-19) created in an animal species, and then circulated to
+            humans.
+            Person to person scattered of the novel corona virus is reported, but it is not yet understood how easily
+            this happens. Other human coronavirus strains are spread from person to person through contaminated droplets
+            from a person who is sick with the illness through</p>
+        <ul class="text-dager">
+            <li class="text-danger">Coughing </li>
+            <li class="text-danger">Sneezing </li>
+            <li class="text-danger">Contaminated hands</li>
+        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Cor9.jpg" height="300" width="400" class="d-block w-100" alt="...">
+                </div>
+                <div class="col">
+                    <img src="cor10.jpg" height="300" width="400" class="d-block w-100" alt="...">
+                </div>
+                <div class="col">
+                    <img src="Cor11.png" height="300" width="400" class="d-block w-100" alt="...">
+                </div>
+                <img src="Cor8.png" height="300" width="1000" class="d-block w-100" alt="...">
+            </div>
+            <h3 class="text-dark text-center">Symptoms about COVID-19</h3>
+            <table class="table table-bordered table-sm table-primary">
+                <thead>
+                    <tr class="text-danger">
+                        <th scope="col text-danger">Most Common Symptoms</th>
+                        <th scope="col text-danger">Less common symptoms</th>
+                        <th scope="col text-danger">Serious symptoms</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fever</td>
+                        <td>Aches and pains</td>
+                        <td>Difficulty breathing or shortness of breath</td>
+                    </tr>
+                    <tr>
+                        <td>Dry cough</td>
+                        <td>Sore throat</td>
+                        <td>Chest pain or pressure</td>
+                    </tr>
+                    <tr>
+                        <td>Tiredness</td>
+                        <td>Diarrhea</td>
+                        <td>Loss of speech or movement</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Conjunctivitis</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Headache</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Loss of taste or smell</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>A rash on skin, or discoloration of fingers or toes</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 class="text-dark">Precautions</h2>
+            <p class="text-muted">Ways to prevent the disease</p>
+            <ul>
+                <li class="text-success">
+                    Wash Your Hands For 20sec
+                </li>
+                <li class="text-success">
+                    Cover Nose & Mouth When Sneezing
+                </li>
+                <li class="text-success">
+                    Use Sanitizer
+                </li>
+                <li class="text-success">
+                    Avoid Crowded Places (Social Distancing)
+                </li>
+            </ul>
+            <div class="text-center">
+                <img src="Cor12.png" height="800" width="900">
+            </div>
+            <h3 class="text-danger my-4">Our Company Current Activity </h3>
+            <p>
+                Some key businesses have remained open during the coronavirus pandemic and others are preparing to
+                reopen as soon as state and local official lift restrictions. Everyone should be aware that need to wear
+                a facemask or cloth face covering. So, our company were engaged in provide masks, safety tool kit, Hand
+                Sanitizer through walk and implement some companion about the awareness of COVID-19.
+            </p>
+            <h3 class="text-muted my-4">Provide Mask, Hand Sanitizer and Toolkit etc. </h3>
+            <p>
+                According to the current situation <a href="https://www.who.int/">World Health Organization (WHO)</a>,
+                people
+                can transmit the virus to
+                others through sneezing, coughing and hand shake while showing no signs or symptoms of COVID-19. So, our
+                company voluntary decided to distribute the mask and spread some knowledge about this novel virus and
+                tell the importance of wearing a mask and how to protect yourself and your family. Here we show some
+                picture about our company recently engaged in these activities related to COVID-19.
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Cor13.jpg" height="300" width="400" class="d-block w-100" alt="...">
+                </div>
+                <div class="col">
+                    <img src="cor14.jpg" height="300" width="400" class="d-block w-100" alt="...">
+                </div>
+                <div class="col">
+                    <img src="Cor15.jpg" height="300" width="400" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <h3 class="text-muted my-4">Contract with MOL Company</h3>
+        <p>Our company facilitate the MOL (Pakistan Oil and Gas Co.) to provide the best masks, hand sanitizer to
+            protect their employees from this virus. Our company do not take a risk of MOL employee health so our
+            responsibility to protect them from COVID-19. We were providing these items to MOL.
+        </p>
+        <table class="table table-bordered table-sm table-primary">
+            <thead>
+                <tr class="text-danger">
+                    <th scope="col text-danger">Serial #</th>
+                    <th scope="col text-danger">Items Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Surgical Mask</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3M™ Particulate Respirator 8210V, N95</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>DHand Sanitizer - 60 ML (Pocket Size)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Hand Sanitizer - 1000 ML (1 Liter)</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Hand Sanitizer - 5000 ML (5 Liters)</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Medical Gown / Cover all (full sleeves)</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Latex Medical Examination Gloves</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Plastic Polythene Gloves</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Walk Through Sanitizer Gates</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Corona Protection Travel Safety Kit</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+    <!--End Part-->
+    <div class="row mb-2 bg-dark my-4">
+        <div class="row mb-2 bg-dark">
+            <div class="col-md-4">
+                <h2 class="text-success offset-md-1 text-justify">Ace Corporate</h2>
+                <p class="text-muted offset-md-1 text-justify">Ace Corporate, is one of the leading consultancy and
+                    advisory
+                    firm
+                    based out of the twin cities of
+                    Rawalpindi and Islamabad. The firm is enriched with the professional competence in the area
+                    of Tax
+                    and Business advisory and provides tax, enterprise risk services, financial advisory and
+                    development
+                    sector consulting to a wide range of local and multinational clients. Established in 1980,
+                    the firm
+                    is one of the pioneer organization in the twin cites for providing professional business
+                    consultancy
+                    services </p>
+                <p><a class="btn btn-secondary offset-md-1" href="#" role="button">View details »</a></p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="text-white text-justify">!Lastest News</h2>
+                <p class="text-muted text-justify">Donec id elit non mi porta gravida at eget metus. Fusce
+                    dapibus,
+                    tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                    magna
+                    mollis euismod. Donec sed odio dui. </p>
+                <p class="offset-md-1"><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+            <div class="col-md-2 ">
+                <h2 class="text-white offset-md-1 text-justify">Categories</h2>
+                <ul>
+                    <li class="cat-item cat-item-2"><a href="http://bmassociates.pk/category/bank-and-financial/">Bank
+                            And Financial</a>
+                    </li>
+                    <li class="cat-item cat-item-3"><a href="http://bmassociates.pk/category/corporate/">Corporate</a>
+                    </li>
+                    <li class="cat-item cat-item-4"><a href="http://bmassociates.pk/category/employment-law/">Employment
+                            Law</a>
+                    </li>
+                    <li class="cat-item cat-item-5"><a href="http://bmassociates.pk/category/family-law/">Family
+                            Law</a>
+                    </li>
+                </ul>
+                <p><a class="btn btn-secondary offset-md-1" href="#" role="button">View details »</a></p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="text-white">Get In Touch</h2>
+                <ul class="thememount_widget_contact_wrapper text-muted">
+                    <li class="thememount-contact-phonenumber fa fa-phone text-muted">92 51-5524833 - 44
+                    </li>
+                    <li class="thememount-contact-email fa fa-envelope-o text-muted"><a
+                            href="mailto:bmtaxation@gmail.com">bmtaxation@gmail.com</a>
+                    </li>
+                    <li class="thememount-contact-website fa fa-globe text-muted"><a
+                            href="http://www.bmassociates.pk">www.bmassociates.pk</a>
+                    </li>
+                    <li class="thememount-contact-address  fa fa-map-marker text-muted">Office 10-12, 3rd Floor,
+                        Shabaz
+                        Plaza, Bank
+                        Road Sadar Cantt. Rawalpindi</li>
+                    <li class="thememount-contact-time fa fa-clock-o text-muted">Mon to Sat - 9:00am to 6:00pm
+                        <br>
+                        (Sunday Closed)
+                    </li>
+                </ul>
+                <p><a class="btn btn-secondary offset-md-1" href="#" role="button">View details »</a></p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+        integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
